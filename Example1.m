@@ -80,7 +80,6 @@ tPCEtot = toc(t_PCEstart);
 fprintf('PCE construction time elapsed: %.4f sec\n', tPCEtot)
 %% MC vs PCE
 Xval = randn([10^3 1]);  % Generate 1000 MC samples
-
 tidx = 11;               % Choose a single timepoint
 t    = time(tidx);         
 
